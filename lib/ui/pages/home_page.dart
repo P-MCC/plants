@@ -20,6 +20,7 @@ class _HomePageState extends State<HomePage> {
   final List<Widget> _widgetOptions = <Widget>[
     const GardenList(),
     Favorites(),
+    SearchScreen()
   ];
 
   void _onItemTapped(int index) {

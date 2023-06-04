@@ -32,7 +32,7 @@ class _LoginPageState extends State<LoginPage> {
           content: Text('User not found!')));
     } else if (storedPassword == password && storedEmail == email) {
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => const HomePage()));
+          context, MaterialPageRoute(builder: (context) => HomePage()));
     } else if (storedPassword == null || storedPassword != password) {
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
           duration: Duration(milliseconds: 400),

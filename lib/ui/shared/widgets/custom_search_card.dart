@@ -98,7 +98,7 @@ class _SearchCardState extends State<SearchCard> {
                 },
                 child: Icon(
                   Icons.favorite,
-                  color: isFavorite ? Colors.white : Colors.red,
+                  color: isFavorite ? Colors.red : Colors.white,
                 ),
               ),
             ),
